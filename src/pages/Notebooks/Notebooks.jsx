@@ -2,7 +2,7 @@ import "./Notebooks.style.css";
 
 function Notebooks() {
   return (
-  <div className="Notebooks">Welcome To The Notebooks</div>
+  <div className="Notebooks" style={{height: "100vh"}}>Welcome To The Notebooks</div>
   )
 }
 

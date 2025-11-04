@@ -2,7 +2,7 @@ import "./Home.style.css";
 
 function Home() {
   return (
-  <div className="Home">Welcome To The Home</div>
+  <div className="Home" style={{height: "100vh"}}>Welcome To The Home</div>
   )
 }
 

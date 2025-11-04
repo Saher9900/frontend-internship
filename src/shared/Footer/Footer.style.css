@@ -1,3 +1,70 @@
 .Footer{
-  
+  background-color: var(--main-color);
+  color: var(--text-color);
+}
+
+/* .cus-container {
+  max-width: 1450px;
+  margin: auto;
+}
+
+@media (min-width: 392px) {
+  .cus-container {
+    max-width: 346px;
+  }
+}
+@media (min-width: 500px) {
+  .cus-container {
+    max-width: 1350px;
+  }
+} */
+
+.cus-logo {
+  max-width: 346px;
+}
+
+.cus-text-field {
+  background-color: #FFFFFF40;
+  border-radius: 10px;
+}
+
+.cus-text-field button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.cus-text-field input {
+  background-color: transparent;
+  border: none;
+}
+.cus-text-field .cus-envelope {
+  color: var(--primary-color);
+}
+
+.cus-text-field input::placeholder{
+  color: var(--text-color);
+}
+
+.cus-top {
+  border-bottom: solid 3px #FFFFFF40;
+  padding: 50px 0;
+}
+
+.cus-contact-icons {
+  border-radius: 50%;
+  color: var(--primary-color);
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cus-middle {
+  padding: 20px 0;
 }
