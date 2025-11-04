@@ -27,7 +27,10 @@ function App() {
         {path: 'reviews', element: <Reviews />},
       ]
     }
-  ]);
+  ], {
+    basename: '/frontend-internship'
+  });
+
   return (
     <RouterProvider router={router} />
   )
